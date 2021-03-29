@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+body{
+    background-color:darkseagreen;
+}
+main{
+    margin: 50px  500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1{
+    color:#555;
+    letter-spacing: 2px;
+}
+.underline{
+    background-color: skyblue;
+    width:100px;
+    height: 5px;
+    margin: 10px 0px 20px 70px;
+}
+article{
+    background-color: #fff;
+    width:500px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:15px;
+    border-radius: 10px;
+    
+}
+.review .img-container{
+    position: relative;
+    width:200px;
+}
+#person-img{
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+}
+
+#author{
+    margin:15px 0px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+#job{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:skyblue;
+    font-weight: bolder;
+    /* letter-spacing: 5px; */
+}
+#info{
+   font-size: 15px;
+   line-height: 25px;
+}
+.button-container{
+    margin: 15px;
+}
+.button-container .prev-btn{
+    margin-right: 30px;
+    background-color: skyblue;
+    padding:6px 20px;
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+}
+.button-container .next-btn{
+    margin-right: 30px;
+    background-color: skyblue;
+    padding:6px 20px;
+    border: none;
+    border-radius: 10px;
+    color:#fff;
+}
+.ramdom-btn{
+    margin-right: 30px;
+    border: 2px solid darkseagreen;
+    padding:6px 20px;
+    /* border: none; */
+    border-radius: 10px;
+    color:#000000;
+}
