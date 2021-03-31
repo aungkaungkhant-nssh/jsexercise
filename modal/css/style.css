@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+   
+}
+.hero{
+    width: 1000px;
+    margin: 250px 450px;
+}
+.banner{
+    background-color: #fff;
+    width:400px;
+    min-height: 30px;
+   text-align: center;
+   padding: 30px 0px;
+   border-radius: 10px;
+   text-transform: capitalize;
+}
+.banner h1{
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: blue;
+    border: none;
+    text-transform: uppercase;
+    padding:10px;
+    font-size: 15px;
+    font-weight: bold;
+    color:#ffff;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.close-btn{
+    margin-top: 5px;
+   width: 50px;
+   height: 20px;
+   transition: all 0.5s;
+   /* background-color: red; */
+}
+.close{
+    width: 70%;
+   height: 4px;
+   margin-top: 4px;
+   background-color: crimson;
+   cursor: pointer;
+  
+}
+.close-btn:hover{
+    transform: rotate(360deg);
+}
+.close.first{
+   transform:rotate(41deg) translate(5px);
+
+}
+.close.second{
+    transform: rotate(-41deg) translate(6px);
+ }
+ .modal-container{
+     display: flex;
+     align-items: center;
+     margin: 250px 450px;
+     background-color: #fff;
+     width: 400px;
+     height: 100px;
+    z-index: 10;
+    padding: 10px;
+    border-radius: 10px;
+
+ }
+
+.modal-overlay{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(110, 110, 223); 
+    text-transform: capitalize;
+    visibility: hidden;
+    z-index: -10;
+
+
+}
+.modal-container h1{
+    color: blue;
+    width: 500px;
+}
+.open-modal{
+    visibility: visible;
+    z-index: 10;
+}
+.modal-overlay h1{
+    margin-right: 10px;
+}
